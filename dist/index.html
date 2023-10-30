@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfilio : PAPPU KUMAR</title>
+    <!-- Style sheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Aweson cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- MyStyle -->
+    <link rel="stylesheet" href="myStyle.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" 
+    rel="stylesheet">
+    <!-- Fav icon -->
+    <link rel="shortcut icon" href="./aseets/navLogo.jpg"  type="image/x-icon">
+</head>
+<body class="bg-slate-800">
+    <!-- Website starting from here -->
+    <div class="main bg-slate-900 text-white">
+
+      <!-- Nav bar -->
+      <nav class=" text-white w-full bg-slate-950 fixed top-0 left-0 font-semibold z-10 flex justify-between items-center px-4 py-3 md:py-6 md:px-6">
+        <div>
+            <img class="w-[40px] h-[40px] md:w-[60px] md:h-[60px] rounded-full" src="./aseets/navLogo.jpg"  alt="logo">
+        </div>
+        <div class="md:hidden"><i class="fa-solid fa-bars fa-xl"></i></div>
+        <ul class="hidden md:flex justify-center items-center gap-[40px] flex-wrap md:text-[20px] ">
+            <a href=""><li class="hover:text-orange-500 hover:cursor-pointer">Home</li></a>
+            <a href="#about"><li class="hover:text-orange-500 hover:cursor-pointer">About</li></a>
+            <a href="#services"><li class="hover:text-orange-500 hover:cursor-pointer">Services</li></a>
+            <a href="#skilcontainer"><li class="hover:text-orange-500 hover:cursor-pointer">Skills</li></a>
+            <a href="#project"><li class="hover:text-orange-500 hover:cursor-pointer">Projects</li></a>
+        </ul>
+        <button class=" hidden px-2 py-1 text-white border-2 border-orange-500 md:flex justify-center items-center rounded-md font-bold ease-in-out duration-500 hover:bg-orange-400 hover:text-black hover:outline-none"><a href="./contact.html" target="_blank">Contact me</a></button>
+      </nav>
+
+      <!-- Hero section -->
+      <main class="text-white h-[100vh]  w-full flex flex-col md:flex-row justify-center md:justify-between md:px-10 z-30" id="home">
+        <aside class=" flex  justify-center flex-wrap items-center flex-col md:w-[50%] ">
+            <div class="flex flex-col justify-center items-center  md:h-full md:w-full">
+                <div class="mt-[100px]  md:w-full px-5 py-10">
+                    <h1 class=" text-4xl md:text-6xl ">Hello, <span class=" text-4xl md:text-5xl">This is</span></h1>
+                    <h1 class=" text-3xl md:text-6xl mt-[6px]"><span class="text-orange-400 font-bold">PAPPU</span></h1>
+                    <h2 class="text-2xl md:text-3xl my-2">And I'm <span id="textChangingEle" class="text-red-600 text-3xl md:text-5xl mt-2"></span></h2>
+                    <p class="mt-[10px] md:text-[18px] flex flex-wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Animi iusto nam maxime aliquid, corrupti odit.</p>
+                </div>
+                <div class="mt-[40px] flex justify-start items-center gap-[20px] md:self-start md:px-8">
+                    <button class="p-2 ease-in-out duration-500 font-semibold bg-orange-600 rounded-md hover:bg-orange-800 hover:text-black">
+                        <a href="./aseets/resumeF3.pdf" download="Resume_Pappu_Kumar">Download CV</a>
+                    </button>
+                    <button class="border-2 ease-in-out duration-500 border-orange-500 py-1 px-2 rounded-md hover:bg-orange-400 hover:text-black">
+                        <a href="./contact.html" target="_blank">Hireme Now!</a>
+                    </button>
+                </div>
+            </div>
+        </aside>
+        <!-- Profile image side -->
+        <aside class="flex justify-center items-center w-[100%] px-10  mt-4 md:w-[50%]  " id="heroRight">
+            <div class=" mt-[40px] md:mt-[100px] bg-gradient-to-r from-white via-red-600 bg-orange-500 md:w-[510px] md:h-[510px] rounded-full  flex justify-center items-center w-[310px] h-[310px] shadow-md shadow-orange-500 rotate-3" id="heroProfileContainer">
+                <img class="rounded-full md:w-[500px] md:h-[500px] w-[300px] h-[300px]" src="./aseets/navLogo.jpg" alt="">
+            </div>
+        </aside>
+      </main>
+
+      <!-- About Section -->
+      <section class="w-full h-full mt-32 md:mt-20" id="about">
+        <div>
+            <!-- About data -->
+           <div class="w-full px-10 py-3">
+            <div>
+                <h1 class="text-5xl md:text-6xl md:mb-20 md:backdrop-brightness-100 text-orange-500 font-bold text-center mb-10 ">About me</h1>
+                <h2 class="text-2xl md:text-3xl text-white backdrop-brightness-100 mt-1 md:mt-3">Professional Web designer & front-end webdeveloper </h2>
+                <p class="mt-3">Lorem ipsum, veniam magni vel veniam magni  reprehenderit minus magnam.</p>
+            </div>
+            <div class="mt-4 mb-2">
+                <p>Name : <span>PAPPU KUMAR</span></p>
+                <p>Email : <span>pappukr034@gmail.com</span></p>
+                <p>Mob : <span>7667384500</span></p>
+                <p>Age : <span>21</span></p>
+            </div>
+            <hr >
+            <button class="p-2 mt-4 font-semibold ease-in-out duration-500 bg-orange-600 rounded-md hover:bg-orange-800 hover:text-black">
+                <a href="./aseets/resumeF3.pdf" download="Resume_Pappu_Kumar">See Resume</a>
+            </button>
+           </div>
+        </div>
+        <div class="flex justify-center items-center flex-col gap-3 px-10 py-6">
+            <div class="py-1 w-full">
+                <h1 class="flex justify-between items-center">Hard Work <span>100%</span></h1>
+                <div class="w-full h-[12px] rounded-md bg-orange-400 "></div>
+            </div>
+            <div class="py-1 w-full">
+                <h1 class="flex justify-between items-center">Creativity  <span>100%</span></h1>
+                <div class="w-full h-[12px] rounded-md bg-orange-400"></div>
+            </div>
+            <div class="py-1 w-full">
+                <h1 class="flex justify-between items-center">Responsibility  <span>100%</span></h1>
+                <div class="w-full h-[12px] rounded-md bg-orange-400"></div>
+            </div>
+            <div class="py-1 w-full">
+                <h1 class="flex justify-between items-center">Wev Development  <span>100%</span></h1>
+                <div class="w-full h-[12px] rounded-md bg-orange-400"></div>
+            </div>
+        </div>
+      </section>
+
+      <!-- Our services -->
+      <section class=" w-full flex flexc flex-wrap justify-center items-center gap-5 px-10 py-6 -z-10 md:flex-row md:mt-10" id="services">
+        <h1 class="text-5xl md:text-6xl md:backdrop-brightness-100 text-orange-500 font-bold mt-10 mr-20 mb-6 md:mb-20">Our Services</h1>
+       
+        <!-- div vontainer -->
+        <div class="flex flex-wrap gap-5 md:flex-row">
+              <!-- first div card -->
+        <div class="w-full p-2 bg-slate-700 rounded-md hover:-translate-y-1 ease-in duration-500 hover:bg-slate-900 shadow-md md:w-[300px] md:hover:ring-1 md:hover:ring-orange-500">
+            <div>
+                <img class="rounded-md" src="./aseets/webdev.webp" alt="">
+            </div>
+            <h1 class="text-3xl backdrop-brightness-100 py-2 text-orange-400">Web Development</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat perferendis libero, nemo aut quia voluptates.</p>
+            <button class="p-2 mt-4 font-semibold ease-in-out duration-500 bg-orange-950 rounded-md hover:bg-orange-400 hover:text-black">Learn more <span><i class="fa-solid fa-chevron-right from-amber-700"></i></span> </button>
+        </div>
+        <!-- second div -->
+        <div class="w-full p-2 bg-slate-700 rounded-md hover:-translate-y-1 ease-in duration-500 hover:bg-slate-900 md:w-[350px] md:hover:ring-1 md:hover:ring-orange-500">
+            <div>
+                <img class="rounded-md" src="./aseets/webdev.webp" alt="">
+            </div>
+            <h1 class="text-3xl backdrop-brightness-100 text-orange-400 py-2">Web Development</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat perferendis libero, nemo aut quia voluptates.</p>
+            <button class="p-2 mt-4 font-semibold ease-in-out duration-500 bg-orange-950 rounded-md hover:bg-orange-400 hover:text-black">Learn more <span><i class="fa-solid fa-chevron-right from-amber-700"></i></span> </button>
+        </div>
+        <!-- 3rd div -->
+        <div class="w-full p-2 bg-slate-700 rounded-md hover:-translate-y-1 ease-in duration-500 hover:bg-slate-900 md:w-[350px] md:hover:ring-1 md:hover:ring-orange-500">
+            <div>
+                <img class="rounded-md" src="./aseets/webdev.webp" alt="">
+            </div>
+            <h1 class="text-3xl backdrop-brightness-100 text-orange-400 py-2">Web Development</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat perferendis libero, nemo aut quia voluptates.</p>
+            <button class="p-2 mt-4 font-semibold ease-in-out duration-500 bg-orange-950 rounded-md hover:bg-orange-400 hover:text-black">Learn more <span><i class="fa-solid fa-chevron-right from-amber-700"></i></span> </button>
+        </div>
+        <!-- 4th div -->
+        <div class="w-full p-2 bg-slate-700 rounded-md hover:-translate-y-1 ease-in duration-500 hover:bg-slate-900 md:w-[300px] md:hover:ring-1 md:hover:ring-orange-500">
+            <div>
+                <img class="rounded-md" src="./aseets/webdev.webp" alt="">
+            </div>
+            <h1 class="text-3xl backdrop-brightness-100 text-orange-400 py-2">Web Development</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat perferendis libero, nemo aut quia voluptates.</p>
+            <button class="p-2 mt-4 font-semibold ease-in-out duration-500 bg-orange-950 rounded-md hover:bg-orange-400 hover:text-black">Learn more <span><i class="fa-solid fa-chevron-right from-amber-700"></i></span> </button>
+        </div>
+        </div>
+       
+      </section>
+
+
+      <!-- Skils section -->
+      <section class="w-full px-10 py-6 flex flex-col mt-10" id="skilcontainer">
+
+        <h1 class="text-center text-6xl mb-3 text-orange-500 font-bold">My Skills</h1>
+        <!-- skills container -->
+        <div class=" mt-6 py-4 gap-10 flex flex-col flex-wrap justify-center items-center md:flex-row md:gap-20 md:mt-16">
+            <div class=" conicGradient w-[280px] h-[280px] rounded-full flex justify-center items-center  shadow-2xl ring-2 ring-red-500 shadow-orange-400" id="outerCircle">
+                <div class=" w-[260px] h-[260px] rounded-full flex flex-wrap flex-col justify-center items-center bg-slate-700 ring-2 ring-red-500" id="innerCircle">
+                    <h1 class="text-6xl" id="percentValue">57%</h1>              
+                    <h1 class="text-4xl mt-1">C</h1>
+                </div>
+            </div>
+            <!-- 2 C++ -->
+            <div class=" conicGradient w-[280px] h-[280px] rounded-full flex justify-center items-center  shadow-2xl ring-2 ring-red-500 shadow-orange-400 " id="outerCircle2">
+                <div class=" w-[260px] h-[260px] rounded-full flex flex-wrap flex-col justify-center items-center bg-slate-700" id="innerCircle">
+                    <h1 class="text-6xl" id="percentValue2">80%</h1>              
+                    <h1 class="text-4xl mt-1">C++</h1>
+                </div>
+            </div>
+            <!-- 3 JS -->
+            <div class=" conicGradient w-[280px] h-[280px] rounded-full flex justify-center items-center  shadow-2xl ring-2 ring-red-500 shadow-orange-400" id="outerCircle3">
+                <div class=" w-[260px] h-[260px] rounded-full flex flex-wrap flex-col justify-center items-center bg-slate-700  ring-2 ring-red-500" id="innerCircle">
+                    <h1 class="text-6xl" id="percentValue3">85%</h1>              
+                    <h1 class="text-4xl mt-1">JavaScript</h1>
+                </div>
+            </div>
+            <!-- 4 React JS -->
+            <div class=" conicGradient w-[280px] h-[280px] rounded-full flex justify-center items-center  shadow-2xl ring-2 ring-red-500 shadow-orange-400 " id="outerCircle4">
+                <div class=" w-[260px] h-[260px] rounded-full flex flex-wrap flex-col justify-center items-center bg-slate-700 ring-2 ring-red-500" id="innerCircle">
+                    <h1 class="text-6xl" id="percentValue4">40%</h1>              
+                    <h1 class="text-4xl mt-1">ReactJS</h1>
+                </div>
+            </div>
+        </div>
+      </section>
+
+    <!-- Project section -->
+    <section class="w-full  mt-20 px-10 py-6 flex flex-col flex-wrap md:flex-row" id="project">
+        <div class="flex flex-col w-full justify-center items-start md:justify-center md:items-center md:mt-12"> 
+            <p class="text-2xl text-orange-400 md:mr-80 md:text-3xl" >Let's see</p>
+            <h1 class="text-center text-6xl font-bold pl-10 text-orange-500">My Project</h1>
+        </div>
+        <div class="w-full px-2 mt-10  flex flex-col justify-between items-center flex-wrap gap-10 md:flex-row md:mt-20">
+            <!-- first card wheather -->
+            <div class=" rounded-md p-2 border md:w-[300px] md:h-[400px] hover:scale-105 hover:ease-in hover:duration-500">
+                <img class="rounded-md w-full md:h-[50%] " src="./aseets/wheather.jpg" alt="">
+                <h1 class="text-3xl text-white brightness-200 mt-4 md:h-[20%]">Wheather App</h1>
+                <div class="w-full flex justify-between items-center mt-4 gap-10">
+                    <button class="bg-orange-700 text-white brightness-150 px-2 py-1 w-full rounded-md hover:bg-orange-900 ease-in duration-500">Visit</button>
+                    <button class="bg-orange-700 text-white brightness-150 px-2 py-1 w-full rounded-md hover:bg-orange-900 ease-in duration-500">
+                        <a href="https://github.com/pappukr034/WeatherApp" target="_blank">Git Hub</a>
+                    </button>
+                </div>
+            </div>
+
+            <!-- second card qr code -->
+            <div class=" rounded-md p-2 border md:w-[300px] md:h-[400px] hover:scale-105 hover:ease-in-out hover:duration-500">
+                <img class="rounded-md w-full md:h-[50%]" src="./aseets/qr.jpg" alt="">
+                <h1 class="text-3xl text-white brightness-200 mt-4 md:h-[20%]">QR Code Generator App</h1>
+                <div class="w-full flex justify-between items-center mt-4 gap-10 ">
+                    <button class="bg-orange-700 text-white brightness-150 px-2 py-1 w-full rounded-md hover:bg-orange-900 ease-in duration-500">Visit</button>
+                    <button class="bg-orange-700 text-white brightness-150 px-2 py-1 w-full rounded-md hover:bg-orange-900 ease-in duration-500">
+                        <a href="https://github.com/pappukr034/JavaScriptAll/tree/main/QR_Code_Generator" target="_blank">Git Hub</a>
+                    </button>
+                </div>
+            </div>
+
+            <!-- 3rd card password -->
+            <div class=" rounded-md p-2 border  md:w-[300px] md:h-[400px] hover:scale-105 hover:ease-in-out hover:duration-500">
+                <img class="rounded-md w-full md:h-[50%]" src="./aseets/Password-generator-1024x576-1024x585.jpg" alt="">
+                <h1 class="text-3xl text-white brightness-200 mt-4 md:h-[20%]">Password Generator App</h1>
+                <div class="w-full flex justify-between items-center mt-4 gap-10">
+                    <button class="bg-orange-700 text-white brightness-150 px-2 py-1 w-full rounded-md hover:bg-orange-900 ease-in duration-500">Visit</button>
+                    <button class="bg-orange-700 text-white brightness-150 px-2 py-1 w-full rounded-md hover:bg-orange-900 ease-in duration-500">
+                        <a href="https://github.com/pappukr034/JavaScriptAll/tree/main/PasswordGenerator" target="_blank">Git Hub</a>
+                    </button>
+                </div>
+            </div>
+
+            <!-- 4th card clock -->
+            <div class=" rounded-md p-2 border md:w-[300px] md:h-[400px] hover:scale-105 hover:ease-in-out hover:duration-500">
+                <img class="rounded-md w-full md:h-[50%]" src="./aseets/clock.png" alt="">
+                <h1 class="text-3xl text-white brightness-200 mt-4 md:h-[20%]">Digital Clock</h1>
+                <div class="w-full flex justify-between items-center mt-4 gap-10">
+                    <button class="bg-orange-700 text-white brightness-150 px-2 py-1 w-full rounded-md hover:bg-orange-900 ease-in duration-500">Visit</button>
+                    <button class="bg-orange-700 text-white brightness-150 px-2 py-1 w-full rounded-md hover:bg-orange-900 ease-in duration-500">
+                        <a href="https://github.com/pappukr034/JavaScriptAll/tree/main/DigitalClock" target="_blank">Git Hub</a>
+                    </button>
+                </div>
+            </div>
+
+            <!-- 5th card counter app -->
+            <div class=" rounded-md p-2 border md:w-[300px] md:h-[400px] hover:scale-105 hover:ease-in-out hover:duration-500">
+                <img class="rounded-md w-full md:h-[50%]" src="./aseets/counter.png" alt="">
+                <h1 class="text-3xl text-white brightness-200 mt-4 md:h-[20%]">Counter  App</h1>
+                <div class="w-full flex justify-between items-center mt-4 gap-10">
+                    <button class="bg-orange-700 text-white brightness-150 px-2 py-1 w-full rounded-md hover:bg-orange-900 ease-in duration-500">Visit</button>
+                    <button class="bg-orange-700 text-white brightness-150 px-2 py-1 w-full rounded-md hover:bg-orange-900 ease-in duration-500">
+                        <a href="https://github.com/pappukr034/JavaScriptAll/tree/main/CounterJS" target="_blank">Git Hub</a>
+                    </button>
+                </div>
+            </div>
+
+            <!-- 6th card Color -->
+            <div class=" rounded-md p-2 border md:w-[300px] md:h-[400px] hover:scale-105 hover:ease-in hover:duration-500">
+                <img class="rounded-md w-full md:h-[50%]" src="./aseets/randomcolorgen.jpeg" alt="">
+                <h1 class="text-3xl text-white brightness-200 mt-4 md:h-[20%]">Random Color Generator</h1>
+                <div class="w-full flex justify-between items-center mt-4 gap-10">
+                    <button class="bg-orange-700 text-white brightness-150 px-2 py-1 w-full rounded-md hover:bg-orange-900 ease-in duration-500">Visit</button>
+                    <button class="bg-orange-700 text-white brightness-150 px-2 py-1 w-full rounded-md hover:bg-orange-900 ease-in duration-500">
+                        <a href="https://github.com/pappukr034/JavaScriptAll/tree/main/UnlimitedColor" target="_blank">Git Hub</a>
+                    </button>
+                </div>
+            </div>
+
+            <!-- 7th card Guess num -->
+            <div class=" rounded-md p-2 border md:w-[300px] md:h-[400px] hover:scale-105 hover:ease-in hover:duration-500">
+                <img class="rounded-md w-full md:h-[50%]" src="./aseets/guessNum.png" alt="">
+                <h1 class="text-3xl text-white brightness-200 mt-4 md:h-[20%]">Number guessing Game App</h1>
+                <div class="w-full flex justify-between items-center mt-4 gap-10">
+                    <button class="bg-orange-700 text-white brightness-150 px-2 py-1 w-full rounded-md hover:bg-orange-900 ease-in duration-500">Visit</button>
+                    <button class="bg-orange-700 text-white brightness-150 px-2 py-1 w-full rounded-md hover:bg-orange-900 ease-in duration-500">
+                        <a href="https://github.com/pappukr034/JavaScriptAll/tree/main/NumberGuessing" target="_blank">Git Hub</a>
+                    </button>
+                </div>
+            </div>
+
+            <!-- 8th card Guess num -->
+            <div class=" rounded-md p-2 border md:w-[300px] md:h-[400px] hover:scale-105 hover:ease-in hover:duration-500">
+                <img class="rounded-md w-full md:h-[50%]" src="./aseets/popup.png" alt="">
+                <h1 class="text-3xl text-white brightness-200 mt-4 md:h-[20%]">Pop Up</h1>
+                <div class="w-full flex justify-between items-center mt-4 gap-10">
+                    <button class="bg-orange-700 text-white brightness-150 px-2 py-1 w-full rounded-md hover:bg-orange-900 ease-in duration-500">Visit</button>
+                    <button class="bg-orange-700 text-white brightness-150 px-2 py-1 w-full rounded-md hover:bg-orange-900 ease-in duration-500">
+                        <a href="https://github.com/pappukr034/JavaScriptAll/tree/main/popUp" target="_blank">Git Hub</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <footer class="w-full bg-slate-800 mt-20 px-10 py-8 border-t-2 border-gray-500" id="footer">
+        <div class="md:flex md:flex-row">
+            <!-- social media -->
+            <div class="w-full md:mt-6">
+                <h1 class="text-3xl text-orange-600">Follow me on Social Media</h1>
+                <div class="w-full flex flex-wrap gap-6 justify-start items-center py-2 text-4xl text-white mt-4">
+                    <a href="https://instagram.com/_pappu_1108?igshid=MzMyNGUyNmU2YQ==" target="_blank" >
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://github.com/pappukr034" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/pappu034?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BX8H2LQPbRkWoZ%2BNjKqCazw%3D%3D" target="_blank"><i class="fa-brands fa-linkedin "></i></a>
+                </div>
+            </div>
+            <!-- links -->
+            <ul class="w-full mt-6 ">
+                <h1 class="text-3xl text-orange-600 border-b-2 w-[50%] md:w-[40%] border-orange-500">Quick Links</h1>
+                <div class="mt-8 flex flex-col flex-wrap gap-1 brightness-125">
+                    <li class="hover:text-orange-600 font-semibold"><a href="#about">About</a></li>
+                    <li class="hover:text-orange-600 font-semibold"><a href="#home">Home</a></li>
+                    <li class="hover:text-orange-600 font-semibold"><a href="#skilcontainer">Skill</a></li>
+                    <li class="hover:text-orange-600 font-semibold"><a href="#services">Services</a></li>
+                    <li class="hover:text-orange-600 font-semibold"><a href="#project">Projects</a></li>
+                </div>
+            </ul>
+            <!-- contact -->
+            <div class="mt-6 w-full flex flex-col flex-wrap  ">
+                <p  class="text-3xl text-orange-600 border-b-2 w-[55%] md:w-[40%] border-orange-500">Contact Info</p>
+                <div class="mt-8 flex flex-col gap-2">
+                    <li class="list-none flex flex-wrap gap-3 justify-start items-center">
+                        <i class="fa-regular fa-envelope text-3xl hover:cursor-pointer"></i>
+                        <a href="mailto:pappukr034@gmail.com" class="text-green-500">pappukr034@gmail.com</a>
+                    </li>
+                    <li  class="list-none flex flex-wrap gap-3 justify-start items-center">
+                        <i class="fa-solid fa-phone text-3xl hover:cursor-pointer"></i>
+                        <a href="tel:7667384500" class="text-green-500">+91 7667384500</a>
+                    </li>
+                </div>
+            </div>
+           
+        </div>
+    </footer>
+
+    <!-- sub footer -->
+    <footer class="w-full bg-slate-950 px-10 py-3 flex justify-between items-center border-t-2 border-gray-500">
+        <p class=" text-2xl text-white brightness-200">Copyright <span class="text-3xl text-orange-500"> &copy; </span> 2023 Designed by <span class="text-3xl text-white brightness-200">PAPPU KUMAR</span></p>
+         <!-- bottum right icon -->
+        <a href="#home" class="ease-in duration-700 text-right py-6 ">
+            <div class="bg-red-500 ring-2 ring-white ring-offset-2 rounded-full w-[40px] h-[40px] flex flex-col items-center justify-center ">
+                <i class="fa-solid fa-arrow-up"></i>
+            </div>
+        </a>
+    </footer>
+
+
+    </div>
+
+
+    <!-- Typed js CDN Link -->
+   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+   <!-- My script.js -->
+   <script src="./myscript.js"></script>
+</body>
+</html>
