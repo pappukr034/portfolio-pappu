@@ -1,0 +1,9 @@
+.conicGradient {
+    background: conic-gradient(#ffa500 3.6deg,#ffffff 0deg);
+    background-color: blue;
+  }
+
+  body{
+    font-family: 'Poppins', sans-serif;
+  }
+  
